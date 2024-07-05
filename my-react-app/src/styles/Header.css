@@ -1,0 +1,15 @@
+body {
+  margin: 0px;
+  background-color: rgb(241, 239, 239);
+}
+.header {
+  background-color: rgb(252, 194, 5);
+  color: rgb(241, 239, 239);
+  padding: 20px;
+  box-shadow: 0 -1px 7px black;
+  left: 0;
+  position: fixed; /* Make the header stick to the top */
+  top: 0; /* Position it at the top */
+  width: 100%; /* Make sure it spans the full width of the page */
+  z-index: 1000;
+}
